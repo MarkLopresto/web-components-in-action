@@ -41,3 +41,5 @@ class Slider extends HTMLElement {
 if (!customElements.get('wcia-slider')) {
   customElements.define('wcia-slider', Slider);
 }
+
+export default Slider
