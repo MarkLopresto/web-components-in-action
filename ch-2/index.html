@@ -5,14 +5,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Components in Action - Ch 2</title>
+  <link rel="stylesheet" href="../assets/css/reset.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
 </head>
 <body>
-  <wcia-slider backgroundcolor="#0000ff" value="180"></wcia-slider>
-  <wcia-photo-carousel
-    title="A Few Random Pics"
-    author="Various"
-    photos="https://picsum.photos/200/300?random=1,https://picsum.photos/200/300?random=2,https://picsum.photos/200/300?random=3,https://picsum.photos/200/300?random=4"
-  ></wcia-photo-carousel>
+  <section class="wcia-section">
+    <div class="wcia-section-container">
+      <wcia-header title="Web Components in Action - Ch 2"></wcia-header>
+    </div>
+  </section>
+  <section class="wcia-section">
+    <div class="wcia-section-container">
+      <wcia-slider backgroundcolor="#0000ff" value="180"></wcia-slider>
+    </div>
+  </section>
+  <section class="wcia-section">
+    <div class="wcia-section-container">
+      <wcia-photo-carousel
+        title="A Few Random Pics"
+        author="Various"
+        photos="https://picsum.photos/200/300?random=1,https://picsum.photos/200/300?random=2,https://picsum.photos/200/300?random=3,https://picsum.photos/200/300?random=4"
+      ></wcia-photo-carousel>
+    </div>
+  </section>
+
   <script type="module" src="../main.js"></script>
 </body>
 </html>

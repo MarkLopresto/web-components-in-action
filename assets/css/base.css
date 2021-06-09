@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --h1-font-size: 40px;
+  --h2-font-size: 32px;
+  --h3-font-size: 24px;
+  --h4-font-size: 20px;
+  --h5-font-size: 18px;
+  --h6-font-size: 16px;
+  --p-font-size: 16px;
+  --bold-font-weight: 700;
+  --header-line-height: 1.4;
+  --p-line-height: 1.1;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--bold-font-weight);
+  line-height: var(--header-line-height);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+p {
+  font-size: var(--p-font-size);
+  line-height: var(--p-line-height);
+}
+
+/* helpers */
+.centered {
+  text-align: center;
+}
+
+/* global */
+.intro {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+}
+.intro-container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.wcia-full-width-section {
+  padding: 2rem 1rem;
+  margin-bottom: 1rem;
+}
+.wcia-full-width-section-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+.wcia-section {
+  padding: 2rem 1rem;
+  margin-bottom: 1rem;
+}
+.wcia-section-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}

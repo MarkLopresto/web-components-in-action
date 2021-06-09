@@ -1,8 +1,10 @@
 class Slider extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-    <div class="bg-overlay"></div>
-    <div class="thumb"></div>
+      <div class="slider">
+        <div class="bg-overlay"></div>
+        <div class="thumb"></div>
+      </div>
 
     <style>
       wcia-slider {
